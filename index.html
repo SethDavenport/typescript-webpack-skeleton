@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TypeScript WebPack AngularJS Skeleton</title>
+    <script src="dist/bundle.js"></script>
+  </head>
+  <body ng-app="MyApp" ng-controller="MyAppController as myAppCtrl">
+    <h1>Hello From:</h1>
+    <ul>
+      <li ng-repeat="tool in myAppCtrl.tools">
+        {{ tool }}
+      </li>
+    </ul>
+  </body>
+</html>
